@@ -8,15 +8,16 @@
     margin: 0;
 }
 .first:active{
-	color: #5fcf80!important;
+	/* color: #5fcf80!important; */
 }
  .logo h2{
-    color:#5fcf80
+    color:#5fcf80;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 .quick-access{
 	padding: 10px;
 	background: #ffffff;
-    z-index: 9;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -131,8 +132,7 @@
     border-radius: 20px;
 }
 
-/* --------------hero sec ends----------------- */
-/* --------------about sec starts----------------- */
+/* -------- */
 
 .flex-about{
     padding: 60px 0;
@@ -168,8 +168,7 @@
     margin-right: 10px;
 }
 
-/* --------------about sec ends----------------- */
-/* --------------students sec starts----------------- */
+/* ----------------- */
 
 .students{
     background-color: hsl(120deg 6% 97%);
@@ -181,7 +180,7 @@
 .flex-students span{
     font-size: 40px;
     font-weight: bold;
-    color: hsl(138deg 54% 59%);
+    color: rgb(44, 148, 75);
     font-family: 'Open Sans', sans-serif;
 }
 .flex-students p{
@@ -190,8 +189,7 @@
     font-weight: 600;
 }
 
-/* --------------students sec ends----------------- */
-/* --------------whyus sec starts--------------------------- */
+/* -------------------- */
 .why-us{
     padding: 40px 0;
 }
@@ -237,9 +235,7 @@
 .card-cnt p{
     font-size: 15px;
 }
-/* --------------whyus sec starts--------------------------- */
-
-/* ----------------------features sec starts------------------------- */
+/* --------- */
 .features h4{
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
@@ -250,15 +246,14 @@
     display: flex;
     align-items: center;
     padding: 15px;
-    border: 1px solid #eef0ef
+    border: 1px solid #eef0ef;
+    margin: 10px;
 }
 .icon-box i{
     font-size: 25px;
     padding-right: 15px;
 }
-/* ----------------------features sec ends------------------------- */
-
-/* ----------------------courses sec starts------------- */
+/* ---------- */
 .courses{
     padding: 100px 0;
 }
@@ -340,9 +335,9 @@
 .members{
     width: 90%;
     text-align: center;
-    border: 1px solid #eef0ef;
+    border: 1px solid #d7d7d7;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .members img{
     width: 100%;
@@ -372,9 +367,13 @@
 .member-content a{
     text-decoration: none;
     color: #7e9486;
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 5px;
 }
+.member-content a :hover{
+    color: #36cd63d4;
+}
+
 
 footer{
     background: #eef0ef;
@@ -516,7 +515,18 @@ footer .newsletter .user-btn{
 .manu-phone a:hover{
     color: #42bc4ec2;
     transition: all 0.5s ease;
+
 }
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.text-center a:hover{
+    background-color: rgb(54, 189, 88);
+}
+
 @media (min-width: 921px){
     .logo a{
         text-decoration: none;
